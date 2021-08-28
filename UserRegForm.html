@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>user form</title>
+    <link rel="stylesheet" href="UserRegForm.css">
+   </head>
+  <body>
+    <form action="#">
+        <div>
+
+        
+        <!-- //userName uc1 -->
+        <label for="country_code">User name : </label>
+        <input type="text" id="userName" name="name"
+        pattern="[A-Za-z]{3}" title="enter valid user name "><br><br>
+
+        <!-- //userEmail UC2 -->
+        <label for="country_code">User Email : </label>
+        <input type="text" id="userEmail" name="Email"
+        pattern="^abc.[A-Za-z]+@[bridgelabz.co][a-z]{2}" title="enter valid Email "><br><br>
+
+        <!-- //userEmail UC3 -->
+        <label for="country_code">User phone : </label>
+        <input type="text" id="userPhone" name="phone"
+        pattern="[0-9]{10}" title="enter valid phone number "><br><br>
+
+        <!-- //userPassword UC4 -->
+        <label for="country_code">User password : </label>
+        <input type="text" id="userPassword" name="password"
+        pattern="[a-zA-Z0-9]{8}" title="enter valid password "><br><br>
+
+        <!-- //userPassword UC5 -->
+        <label for="country_code">User password : </label>
+        <input type="text" id="userPassword" name="password"
+        pattern="^([A-Z]{1,1}[0-9]{1}[_?&*$#@]{1}[a-zA-Z]{6})" title="enter valid password "><br><br>
+
+
+        <button type="submit" style="margin-left: 200px;">submit</button>
+
+    </div>
+    </form>
+</body>
+  </html>
